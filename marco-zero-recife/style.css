@@ -34,6 +34,7 @@ h3 {
     font-size: 1.5rem;
     margin-bottom: 20px;
     text-align: center;
+    margin-top: 20px;
 }
 
 p {
@@ -57,6 +58,27 @@ img {
     display: block;
     margin: 20px auto;
     border-radius: 5%;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.link {
+    display: inline-block;
+    margin: 20px 0;
+    padding: 10px 15px;
+    background-color: #88ecec;
+    color: #1e1c2a;
+    text-decoration: none;
+    border-radius: 5px;    
+}
+
+.link:hover {
+    background-color: #3ce2e2;
+    color: #fff;
 }
 
 footer p {
